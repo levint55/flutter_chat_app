@@ -31,6 +31,7 @@ class Messages extends StatelessWidget {
             key: ValueKey(documents[index].id),
             userId: documents[index]['userId'],
             userName: documents[index]['username'],
+            imageUrl: documents[index]['userImage'],
           ),
         );
       },
